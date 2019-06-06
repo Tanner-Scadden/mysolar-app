@@ -1,0 +1,56 @@
+
+
+.calendar {
+
+  display: flex;
+
+  .loading {
+    opacity: 0.7;
+  }
+
+  .big-calendar {
+    height: 48em;
+    width: 60em;
+    margin-left: 2em;
+  }
+
+  .info {
+    width: 10em;
+
+    margin: 0 auto;
+
+    .key {
+
+      display: flex;
+      justify-content: space-between;
+      width: 9em;
+
+
+      .box {
+        width: 1em;
+        height: 1em;
+        border: 1px solid black;
+
+        margin: .2em;
+
+        &.blue {
+          border-color: #3174AD;
+        }
+
+        &.green {
+          border-color: #3CB371;
+        }
+
+        &.red {
+          border-color: #DC143C;
+        }
+      }
+
+      .name {
+        font-size: .9em;
+        padding: .3em 0;
+        font-weight: 600;
+      }
+    }
+  }
+}
